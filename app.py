@@ -11,7 +11,7 @@ import os
 # API Key (works in Streamlit Cloud too)
 os.environ['GOOGLE_API_KEY'] = st.secrets["GOOGLE_API_KEY"]
 
-st.title("🧾 CA Chatbot - Ask your Tax & Audit Questions")
+st.title("🧾 TaxGPT - Ask your Tax & Audit Questions")
 
 uploaded_file = st.file_uploader("Upload a CA-related PDF (e.g., GST Act)", type="pdf")
 
